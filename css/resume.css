@@ -4,6 +4,9 @@ body {
   color: #868e96;
 }
 
+.avatar:hover{
+  opacity: 20;
+}
 
 
 @media (min-width: 992px) {
