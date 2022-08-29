@@ -214,6 +214,10 @@ section .title::after{
     background: none;
 }
 
+.alignment{
+    text-align: center;
+}
+
 /* about section styling */
 .about .title::after{
     content: "";
@@ -361,7 +365,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: rgb(20, 43, 220);
 }
 .skills-content .right .html::before{
     width: 90%;
