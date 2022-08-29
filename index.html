@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jorge Luis Sampaio de Oliveira</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylegallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -142,46 +143,361 @@
 
     <!-- teams section start -->
     <section class="teams" id="certificates">
-        <div class="max-width">
-            <h2 class="title">Habilidades / Certificados de Conhecimento</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-1.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-2.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-5.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+      <h2 class="title">Certificações de Conhecimento</h2>
+       <div>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('bootcamp')"> Bootcamp</button>
+            <button class="btn" onclick="filterSelection('angular')"> Angular</button>
+            <button class="btn" onclick="filterSelection('htmlcss')"> HTML/CSS</button>
+            <button class="btn" onclick="filterSelection('Java')"> Java</button>
+            <button class="btn" onclick="filterSelection('Javascript')"> Javascript</button>
+            <button class="btn" onclick="filterSelection('Programming')"> Programming</button>
+            <button class="btn" onclick="filterSelection('React')"> React</button>
+            <button class="btn" onclick="filterSelection('typescript')"> Typescript</button>
+      
+          </div>
+          
+          <!-- Portfolio Gallery Grid -->
+          <div class="row">
+      
+            <!--BOOTCAMPS-->
+            <div class="column bootcamp">
+              <div class="content">
+                <h4>073F9359 - Santander Bootcamp Fullstack Developer</h4>
+              </div>
             </div>
-        </div>
+      
+            <!--ANGULAR-->
+            <div class="column angular">
+              <div class="content">
+                <h4>E195F9EA - Introdução ao Angular 8-1</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>1B88B6C3 - Trabalhando com Páginas SPA com Angular</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>93DA704C - Instalando e Preparando o Ambiente Angular</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>B75CA237 - Explorando Diretivas com Angular</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>D86F5B2B - Implementando Serviços e Injeção de Dependências com Angular</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>5FA1B8DB - Introdução a Serviços Assíncronos no Angular</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>293956EB - O Poder do Data Binding no Angular</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>80CE387D - Trabalhando com Componentes em Angular</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>08455C8C - Criação de Pipes com Angular</h4>
+              </div>
+            </div>
+      
+            <div class="column angular">
+              <div class="content">
+                <h4>1A4EBAA3 - Como criar um front-end de um e-commerce utilizando Angular</h4>
+              </div>
+            </div>
+      
+            <!--HTMLCSS-->
+            <div class="column htmlcss">
+              <div class="content">
+                <h4>1FE369B1 - Posicionando elementos com Flexbox em CSS</h4>
+              </div>
+            </div>
+      
+            <div class="column htmlcss">
+              <div class="content">
+                <h4>0329011C - Recriando a página inicial do Instagram</h4>
+              </div>
+            </div>
+      
+            <div class="column htmlcss">
+              <div class="content">
+                <h4>CC180E44 - Primeiros passos para desenvolvimento web</h4>
+              </div>
+            </div>
+      
+            <div class="column htmlcss">
+              <div class="content">
+                <h4>E568822B - Introdução a criação de websites com HTML5 e CSS3</h4>
+              </div>
+            </div>
+      
+            <div class="column htmlcss">
+              <div class="content">
+                <h4>E9728981 - A arquitetura de componentes e a gestão da complexidade no front-end</h4>
+              </div>
+            </div>
+      
+            <!--JAVA-->
+            <div class="column Java">
+              <div class="content">
+                <h4>8EF5E022 - Introdução ao framework Spring Boot</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>9E4EB5BB - Adicionando Segurança a uma API REST com Spring Security</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>74C7C93F - Variáveis, Tipos de Dados e Operadores Matemáticos em Java</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>075D346D - Estruturas de Repetição e Arrays em Java</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>0497FC60 - Entendendo Métodos Java</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>9472F876 - Debugging Java</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>AFAC3864 - Dominando IDEs Java</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>CC9CB6E0 - Imersão no Spring Framework com Spring Boot</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>EC37B644 - Criando um Banco Digital com Java e Orientação a Objetos</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>F8C267DF - Explorando Padrões de Projetos na Prática com Java</h4>
+              </div>
+            </div>
+      
+            <div class="column Java">
+              <div class="content">
+                <h4>FB624665 - Trabalhando com Collections Java</h4>
+              </div>
+            </div>
+      
+            <!--JAVASCRIPTS-->
+            <div class="column Javascript">
+              <div class="content">
+                <h4>4ABC5364 - Introdução ao JavaScript</h4>
+              </div>
+            </div>
+            
+            <div class="column Javascript">
+              <div class="content">
+                <h4>6CBBD103 - Fundamentos de JavaScript Assíncrono</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>26FE315D - Manipulando a D.O.M. com JavaScript</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>658229C6 - Trabalhando com Módulos em JavaScript</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>7157285E - Debugging e Error Handling com JavaScript</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>B82CD82C - Sintaxe e Operadores JavaScript</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>B731C728 - Dominando Funções em JavaScript</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>C8DDB461 - Variáveis e Tipos com JavaScript</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>E92A5331 - Map, Filter e Reduce</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>E524482B - Orientação a Objetos com JavaScript</h4>
+              </div>
+            </div>
+      
+            <div class="column Javascript">
+              <div class="content">
+                <h4>FFB415B5 - Mapas e Conjuntos com JavaScript</h4>
+              </div>
+            </div>
+      
+            <!--PROGRAMMING-->      
+            <div class="column Programming">
+              <div class="content">
+                <h4>1FC6044E - Programação Orientada a Objetos</h4>
+              </div>
+            </div>
+      
+            <div class="column Programming">
+              <div class="content">
+                <h4>9B4A9856 - Desmistificando o Trabalho Remoto</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>062BC8D6 - Aprenda o que são Estrutura de Dados e Algoritmos</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>73A7F265 - Principais Protocolos de Comunicação da Internet</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>192D8270 - Introdução ao Sistema</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>775A1B5F - Introdução à Programação e Pensamento Computacional</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>780CB8A3 - Rotina e produtividade individual no trabalho remoto</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>5509172A - Introdução ao Desenvolvimento Moderno de Software</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>A6D2B5EB - Como gerenciar seus projetos trabalhando remotamente</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>AC7EA4C1 - Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>CF0596A7 - Introdução ao Git e ao GitHub</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>E77FCE60 - Lógica de Programação Essencial</h4>
+              </div>
+            </div>
+            
+            <div class="column Programming">
+              <div class="content">
+                <h4>FDE5EA51 - Como se comunicar de forma eficiente e eficaz trabalhando remotamente</h4>
+              </div>
+            </div>
+            
+      
+            <!--REACT-->
+            <div class="column React">
+              <div class="content">
+                <h4>3921D320 - Criando aplicações móveis multiplataforma com React Native</h4>
+              </div>
+            </div>
+      
+            <!--TYPESCRIPT-->
+            <div class="column typescript">
+              <div class="content">
+                <h4>48B9B600 - Introdução Prática ao TypeScript</h4>
+              </div>
+            </div>
+      
+            <div class="column typescript">
+              <div class="content">
+                <h4>0CF30A5F - Introdução ao TypeScript Explorando Classes, Tipos e Interfaces</h4>
+              </div>
+            </div>
+           
+            
+          <!-- END GRID -->
+          </div>
+       </div>
     </section>
 
     <!-- contact section start -->
@@ -251,5 +567,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="gallery.js"></script>
 </body>
 </html>
